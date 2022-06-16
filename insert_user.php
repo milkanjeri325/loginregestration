@@ -42,9 +42,6 @@ if(isset($_POST['username']) && isset($_POST['user_email']) && isset($_POST['use
             $error_message = "Invalid email address";
         }
     }
-    else{
-// IF FIELDS ARE EMPTY
-        $error_message = "Please fill in all the required fields.";
-    }
+    else$error_message = "Please fill in all the required fields.";
 }
 ?>
